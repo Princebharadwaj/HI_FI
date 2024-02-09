@@ -1,0 +1,41 @@
+.contact-container{
+    width: 30%;
+    min-height: 100%;
+    padding: 10px;
+    box-shadow: 0.5px 0 2px black;
+}
+.contact-heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    margin: 4px;
+}
+.contact-heading > div {
+
+    height: 35px;
+    width: 8%;
+    border: 2px dashed black;
+    border-radius: 50%;
+}
+.contact-box{
+    background: #d5eef2;
+    margin: 4% 0;
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 12px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.contact-box:hover{
+    background: #c6edf4;
+}
+.contact-selected{
+    background: #618db7;
+}
+.contact-box img{
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 7%;
+}
